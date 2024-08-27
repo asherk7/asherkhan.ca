@@ -33,7 +33,7 @@ const Experience = () => {
                         <h4>Ericsson</h4>
                     </div>
                     <div className="timeline-body">
-                        <p>I am currently working at Ericsson as a 5G Software Developer Co-op</p>
+                        <p>I previously worked at Ericsson as a 5G Software Developer Intern.</p>
                     </div>
                 </div>
             </div>
