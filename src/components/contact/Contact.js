@@ -26,7 +26,7 @@ const Contact = () => {
 
         <form ref={form} onSubmit={sendEmail} >
           <fieldset>
-            <legend className="text-light">Have a question or interested in discussing a project? Feel free to reach out and send me a message. I'm here to help and excited to hear from you!</legend>
+            <legend className="text-light">Have a question or interested in discussing a project? Feel free to reach out and send me a message.</legend>
             <div className="form-group">
               <label hidden htmlFor="name">Name</label>
               <input type="text" id="name" name="name" placeholder="Enter your name" required />

@@ -10,6 +10,7 @@ const Project = (props) => {
         <img src={projectdata.image} alt={projectdata.title} />
       </div>
       <h3>{projectdata.title}</h3>
+      <p>{projectdata.description}</p>
       <div className="project-tech">
         {projectdata.tech.map((tech) => {
           return <li key={tech}>{tech}</li>
