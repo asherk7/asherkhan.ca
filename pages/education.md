@@ -1,5 +1,5 @@
 ---
-title: Experience - Asher Khan
+title: Education - Asher Khan
 display: ''
 art: dots
 ---

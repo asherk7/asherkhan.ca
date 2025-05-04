@@ -7,12 +7,12 @@ art: dots
 
 Hey! I'm Asher Khan, a Software Engineering student at McMaster University, and a passionate machine learning engineer.
 
-Dreaming up cool ideas and making them come true is where my passion lies. I am enthusiastic about exploring, and applying machine learning to benefit society, and push the boundaries of what's possible. You can find my full project list, publications, and open-source contributions on my <a href="../public/Asher_Khan_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a> and [GitHub](https://github.com/asherk7).
+Dreaming up cool ideas and making them come true is where my passion lies. I am enthusiastic about exploring, and applying machine learning to benefit society, and push the boundaries of what's possible. You can find my full project list, publications, and open-source contributions on my <a href="/Asher_Khan_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a> and [GitHub](https://github.com/asherk7).
 
 I've interned as a machine learning engineer or software developer at various companies such as Ericsson. I've also done freelancing where I designed pages and built web applications. You can find more on my [LinkedIn](https://www.linkedin.com/in/asher-khan13/).
 
-for ML, I mainly use: {Python} {TensorFlow} {PyTorch} {Pandas} {Matplotlib}  
-With data science, I add in: {NumPy} {Scikit-learn} {MySQL}  
+for ML, I mainly use: {Python} {TensorFlow} {PyTorch} {Pandas} {Matplotlib}
+With data science, I add in: {NumPy} {Scikit-learn} {MySQL}
 For production and deployement, I finish with: {Docker} {Azure}
 
 Outside of programming, I enjoy exploring new cuisines and capturing moments through photography, which can be found on my [Instagram](https://instagram.com/_asher.kh). In my spare time, I often read books, stay active at the gym, and play sports such as intramural football or volleyball. I'm also a big fan of anime, movies, and dramas.

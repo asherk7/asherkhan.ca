@@ -44,7 +44,7 @@ const { y: scroll } = useWindowScroll()
         <a href="https://www.github.com/asherk7" target="_blank" title="GitHub" class="lt-md:hidden">
           <div i-uil-github-alt />
         </a>
-        <a href="../../public/Asher_Khan_Resume.pdf" target="_blank" title="Resume" class="lt-md:hidden">
+        <a href="/Asher_Khan_Resume.pdf" target="_blank" title="Resume" class="lt-md:hidden">
           <div i-ri-file-text-line />
         </a>
         <a href="https://www.instagram.com/_asher.kh/" target="_blank" title="Instagram" class="lt-md:hidden">

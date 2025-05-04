@@ -1,3 +1,3 @@
 <template>
-  <img src="../../favicon.ico" alt="Your Image" />
+  <img src="/favicon.png" alt="Logo">
 </template>
