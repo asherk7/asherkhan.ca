@@ -27,6 +27,7 @@
     "matter-js": "catalog:frontend",
     "nprogress": "catalog:frontend",
     "pinia": "catalog:frontend",
+    "pinia-plugin-persistedstate": "catalog:frontend",
     "pixi.js": "catalog:frontend",
     "querystring": "catalog:",
     "shiki": "catalog:frontend",

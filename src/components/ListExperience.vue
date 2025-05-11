@@ -5,15 +5,14 @@ import { formatDate } from '../logics'
 function getSlug(title: string) {
   return title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-')
 }
-
 </script>
 
 <template>
   <div>
     <template v-for="(job, idx) in experience" :key="idx">
-      <div v-if="idx !== 0" class="pt-4"></div>
+      <div v-if="idx !== 0" class="pt-4" />
 
-      <h2 :id="getSlug(job.title)" tabindex="-1" class="mb-0" :style="{marginBottom: '0.3rem'}">
+      <h2 :id="getSlug(job.title)" tabindex="-1" class="mb-0" :style="{ marginBottom: '0.3rem' }">
         {{ job.title }} @ {{ job.company }}
       </h2>
 
@@ -32,10 +31,21 @@ function getSlug(title: string) {
       </div>
 
       <ul class="list-disc ml-5 mt-2 space-y-1 text-zinc5">
-        <li v-if="job.point1">{{ job.point1 }}</li>
-        <li v-if="job.point2">{{ job.point2 }}</li>
-        <li v-if="job.point3">{{ job.point3 }}</li>
+        <li v-if="job.point1">
+          {{ job.point1 }}
+        </li>
+        <li v-if="job.point2">
+          {{ job.point2 }}
+        </li>
+        <li v-if="job.point3">
+          {{ job.point3 }}
+        </li>
       </ul>
     </template>
+    <div class="prose m-auto mt-8 mb-8 slide-enter animate-delay-500 print:hidden">
+      <br>
+      <span font-mono op50>> </span>
+      <a href="/" class="font-mono op50 hover:op75">cd ..</a>
+    </div>
   </div>
 </template>

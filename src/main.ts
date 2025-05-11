@@ -3,6 +3,7 @@ import LocalizedFormat from 'dayjs/plugin/localizedFormat.js'
 import FloatingVue from 'floating-vue'
 import NProgress from 'nprogress'
 import { createPinia } from 'pinia'
+import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 import { ViteSSG } from 'vite-ssg'
 import { setupRouterScroller } from 'vue-router-better-scroller'
 import { routes } from 'vue-router/auto-routes'
@@ -30,7 +31,9 @@ export const createApp = ViteSSG(
     dayjs.extend(LocalizedFormat)
 
     app.use(FloatingVue)
-    app.use(createPinia())
+    const pinia = createPinia()
+    pinia.use(piniaPluginPersistedstate)
+    app.use(pinia)
 
     if (isClient) {
       const html = document.querySelector('html')!

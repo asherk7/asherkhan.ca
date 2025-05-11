@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { onMounted } from 'vue'
 import { SpotifyLogo } from '../logics/logo'
 import { getNowPlaying } from '../logics/spotifyAPI'
 import PlayingAnimation from './Animation.vue'
 
-const nowPlaying = ref<any>(null)
 const spotifyLogo = SpotifyLogo()
+const nowPlaying = ref<any>(null)
 
 onMounted(async () => {
   nowPlaying.value = await getNowPlaying()
@@ -13,12 +13,12 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div v-if="nowPlaying" class="now-playing-container">
+  <div class="now-playing-container">
     <div class="header">
       <div class="spotify-logo" v-html="spotifyLogo" />
-      <span class="text-zinc1">Now playing</span>
+      <span class="text-zinc1">I'm currently listening to:</span>
     </div>
-    <div class="now-playing-box" href="{{nowPlaying.songUrl}}" target="_blank">
+    <div v-if="nowPlaying" class="now-playing-box" :href="nowPlaying.songUrl" target="_blank">
       <img :src="nowPlaying.albumImageUrl" alt="Album cover" class="album-cover">
       <div class="track-info">
         <div class="track-title">
@@ -30,6 +30,14 @@ onMounted(async () => {
         </div>
       </div>
     </div>
+    <div v-else class="now-playing-box">
+      <div class="track-info" style="padding: 0.75rem 0.5rem;">
+        <div class="track-title">
+          <PlayingAnimation class="animation-bars" />
+          <span>Nothing right now 🎵 💤</span>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -38,7 +46,7 @@ onMounted(async () => {
   background-color: transparent !important;
   color: white;
   font-family: 'Inter', sans-serif;
-  width: 50%;
+  width: fit-content;
   border-radius: 12px;
 }
 
@@ -62,6 +70,7 @@ onMounted(async () => {
   display: flex;
   align-items: center;
   padding: 0.5rem;
+  padding-right: 5rem;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.15);
 }

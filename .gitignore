@@ -13,3 +13,5 @@ drafts
 *.log
 public/assets/fonts
 *.env
+# Local Netlify folder
+.netlify

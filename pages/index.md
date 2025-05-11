@@ -1,7 +1,6 @@
 ---
 title: Asher Khan
 description: Asher Khan's Portfolio
-image: https://asherkhan.ca/favicon.png
 art: dots
 components:
   - Spotify
@@ -13,8 +12,8 @@ Dreaming up cool ideas and making them come true is where my passion lies. I am 
 
 I've interned as a machine learning engineer or software developer at various companies such as Ericsson. I've also done freelancing where I designed pages and built web applications. You can find more on my [LinkedIn](https://www.linkedin.com/in/asher-khan13/).
 
-For ML, I mainly use: {Python} {TensorFlow} {PyTorch} {Pandas} {Matplotlib}
-With data science, I add in: {NumPy} {Scikit-learn} {MySQL}
+For ML, I mainly use: {Python} {TensorFlow} {PyTorch} {Pandas} {Matplotlib}<br>
+With data science, I add in: {NumPy} {Scikit-learn} {MySQL}<br>
 For production and deployement, I finish with: {Docker} {Azure}
 
 Outside of programming, I enjoy exploring new cuisines and capturing moments through photography, which can be found on my [Instagram](https://instagram.com/_asher.kh). In my spare time, I often read books, stay active at the gym, and play sports such as intramural football or volleyball. I'm also a big fan of anime, movies, and dramas.

@@ -1,8 +1,6 @@
 packages: []
 
 catalog:
-  '@chakra-ui/vue': ^0.13.1
-  '@chakra-ui/vue-next': 1.0.0-alpha.16
   '@emotion/css': ^11.13.5
   '@emotion/react': ^11.14.0
   '@emotion/styled': ^11.14.0
@@ -67,7 +65,6 @@ catalogs:
     '@antfu/utils': ^9.2.0
     '@unhead/vue': ^2.0.8
     '@unocss/reset': ^66.0.0
-    '@vueuse/core': ^13.1.0
     d3-hierarchy: ^3.1.2
     d3-shape: ^3.2.0
     dayjs: ^1.11.13
@@ -76,6 +73,7 @@ catalogs:
     matter-js: ^0.20.0
     nprogress: ^0.2.0
     pinia: ^3.0.2
+    pinia-plugin-persistedstate: ^4.3.0
     pixi.js: ^8.9.1
     shiki: ^3.3.0
     shiki-magic-move: ^1.1.0

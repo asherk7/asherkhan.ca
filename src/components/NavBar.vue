@@ -38,6 +38,10 @@ const { y: scroll } = useWindowScroll()
           <span class="lt-md:hidden">Experience</span>
           <div i-ri-briefcase-line class="md:hidden" />
         </RouterLink>
+        <RouterLink to="/projects" title="Projects">
+          <span class="lt-md:hidden">Projects</span>
+          <div i-ri-code-s-slash-line class="md:hidden" />
+        </RouterLink>
         <a href="https://www.linkedin.com/in/asher-khan13/" target="_blank" title="LinkedIn" class="lt-md:hidden">
           <div i-ri-linkedin-line />
         </a>
