@@ -3,6 +3,8 @@ title: Asher Khan
 description: Asher Khan's Portfolio
 image: https://asherkhan.ca/favicon.png
 art: dots
+components:
+  - Spotify
 ---
 
 Hey! I'm Asher Khan, a Software Engineering student at McMaster University, and a passionate machine learning engineer.
@@ -11,7 +13,7 @@ Dreaming up cool ideas and making them come true is where my passion lies. I am 
 
 I've interned as a machine learning engineer or software developer at various companies such as Ericsson. I've also done freelancing where I designed pages and built web applications. You can find more on my [LinkedIn](https://www.linkedin.com/in/asher-khan13/).
 
-for ML, I mainly use: {Python} {TensorFlow} {PyTorch} {Pandas} {Matplotlib}
+For ML, I mainly use: {Python} {TensorFlow} {PyTorch} {Pandas} {Matplotlib}
 With data science, I add in: {NumPy} {Scikit-learn} {MySQL}
 For production and deployement, I finish with: {Docker} {Azure}
 
@@ -25,7 +27,7 @@ I'm planning to pursue a Master’s in Machine Learning, publish a thesis, and c
 
 Find me on
 
-<p flex="~ gap-2 wrap" class="mt--2!">
+<p flex="~ gap-3 wrap" class="mt--4!">
   <a href="https://github.com/asherk7" target="_blank"><span op75 i-simple-icons-github /> GitHub</a>
   <a href="https://www.linkedin.com/in/asher-khan13/" target="_blank"><span op75 i-simple-icons-linkedin /> Linkedin</a>
   <a href="https://discord.com/users/647306838148251648" target="_blank"><span op75 i-simple-icons-discord /> Discord</a>
@@ -36,3 +38,5 @@ Find me on
 Or mail me at <span font-mono>masherk03<span i-carbon-at/>outlook.com</span>
 
 ---
+
+<Spotify />

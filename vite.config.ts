@@ -28,6 +28,10 @@ import { slugify } from './scripts/slugify'
 const promises: Promise<any>[] = []
 
 export default defineConfig({
+  server: {
+    port: 3333,
+    host: '127.0.0.1',
+  },
   resolve: {
     alias: [
       { find: '~/', replacement: `${resolve(__dirname, 'src')}/` },

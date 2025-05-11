@@ -1,5 +1,14 @@
 packages: []
 
+catalog:
+  '@chakra-ui/vue': ^0.13.1
+  '@chakra-ui/vue-next': 1.0.0-alpha.16
+  '@emotion/css': ^11.13.5
+  '@emotion/react': ^11.14.0
+  '@emotion/styled': ^11.14.0
+  '@vueuse/shared': 9.13.0
+  framer-motion: ^12.10.5
+  querystring: ^0.2.1
 catalogs:
   build:
     '@shikijs/markdown-it': ^3.3.0
@@ -25,6 +34,9 @@ catalogs:
     vite-plugin-optimize-exclude: ^0.0.1
     vite-ssg: ^26.1.1
     vite-svg-loader: ^5.1.0
+  conflicts_frontend_9_13_0:
+    '@vueuse/core': 9.13.0
+
   dev:
     '@antfu/eslint-config': ^4.12.0
     '@iconify/json': ^2.2.331
@@ -82,7 +94,6 @@ catalogs:
     '@types/node': ^22.14.1
     '@types/nprogress': ^0.2.3
     '@types/prompts': ^2.4.9
-
 onlyBuiltDependencies:
   - esbuild
   - exifreader
