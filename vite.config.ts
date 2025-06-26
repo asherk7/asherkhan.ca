@@ -137,7 +137,7 @@ export default defineConfig({
             'Matplotlib': 'https://github.com/matplotlib/matplotlib',
             'MySQL': 'https://github.com/mysql/mysql-server',
             'Docker': 'https://github.com/docker/docker',
-            'Azure': 'https://github.com/Azure/azure-cli',
+            'AWS': 'https://github.com/aws/aws-sdk-js',
           },
         })
 

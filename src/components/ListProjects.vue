@@ -134,7 +134,7 @@ onMounted(() => {
         >
           <div class="flex-auto">
             <div class="text-normal">{{ item.name }}</div>
-            <div class="desc text-sm opacity-50 font-normal" v-html="item.desc" />
+            <div class="desc text-sm opacity-60 font-normal" v-html="item.desc" />
           </div>
         </a>
       </div>
