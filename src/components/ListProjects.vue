@@ -48,7 +48,7 @@ async function fetchRepos() {
           projects.value[topic] = []
         }
         projects.value[topic].push({
-          name: repo.name,
+          name: formatRepoName(repo.name),
           desc: repo.description || 'No description available',
           link: repo.html_url,
           icon: repo.name.includes('vue') ? 'vueuse' : '',
@@ -69,6 +69,20 @@ const sortedProjects = computed(() => {
 
   return sorted
 })
+
+function formatRepoName(name: string): string {
+  const acronyms = ['AI', 'ML']
+
+  return name
+    .split('-')
+    .map((part) => {
+      const upper = part.toUpperCase()
+      return acronyms.includes(upper)
+        ? upper
+        : part.charAt(0).toUpperCase() + part.slice(1)
+    })
+    .join(' ')
+}
 
 onMounted(() => {
   fetchRepos()
