@@ -31,8 +31,8 @@ function getSlug(title: string) {
       </div>
 
       <ul class="list-disc ml-5 mt-2 space-y-1 text-zinc5">
-        <li v-if="job.point1">
-          {{ job.point1 }}
+        <li v-if="job.point">
+          {{ job.point }}
         </li>
       </ul>
     </template>
