@@ -34,12 +34,6 @@ function getSlug(title: string) {
         <li v-if="job.point1">
           {{ job.point1 }}
         </li>
-        <li v-if="job.point2">
-          {{ job.point2 }}
-        </li>
-        <li v-if="job.point3">
-          {{ job.point3 }}
-        </li>
       </ul>
     </template>
     <div class="prose m-auto mt-8 mb-8 slide-enter animate-delay-500 print:hidden">

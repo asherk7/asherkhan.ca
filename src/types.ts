@@ -5,9 +5,7 @@ export interface Experience {
   location: string
   start: string
   end: string
-  point1: string
-  point2: string
-  point3: string
+  point: string
 }
 
 export interface Education {
