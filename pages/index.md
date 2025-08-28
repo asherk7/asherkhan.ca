@@ -6,7 +6,7 @@ components:
   - Spotify
 ---
 
-Hey! I'm Asher Khan, a Software Engineering student at McMaster University, and a passionate machine learning engineer.
+Hey! I'm Asher Khan, a Software Engineering student at McMaster University, and a passionate machine learning engineer specializing in computer vision.
 
 Dreaming up cool ideas and making them come true is where my passion lies. I am enthusiastic about exploring, and applying machine learning to benefit society, and push the boundaries of what's possible. You can find my full project list, publications, and open-source contributions on my <a href="/Asher_Khan_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a> and [GitHub](https://github.com/asherk7).
 
