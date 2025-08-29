@@ -15,8 +15,8 @@ export const experience: Experience[] = [
     company: 'Google Developer Groups McMaster University',
     type: 'Student Group',
     location: 'Hamilton, Ontario, Canada',
-    start: '2024-09-04',
-    end: 'Present',
+    start: '2023-08-21',
+    end: '2025-04-25',
     point: 'AI/ML Initiatives & Coding Events',
   },
   {
@@ -33,8 +33,8 @@ export const experience: Experience[] = [
     company: 'One iota Golf Inc.',
     type: 'Freelance',
     location: 'Remote',
-    start: '2024-02-12',
-    end: '2024-05-01',
+    start: '2024-03-04',
+    end: '2024-04-26',
     point: 'Full-Stack Development',
   },
   {
@@ -52,7 +52,7 @@ export const experience: Experience[] = [
     type: 'Student Group',
     location: 'Hamilton, Ontario, Canada',
     start: '2021-01-20',
-    end: '2023-05-01',
+    end: '2023-04-28',
     point: 'CV & ML Research',
   },
 ]
