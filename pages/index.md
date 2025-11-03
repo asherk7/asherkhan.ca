@@ -10,7 +10,7 @@ Hey! I'm Asher Khan, a Software Engineering student at McMaster University, and 
 
 Dreaming up cool ideas and making them come true is where my passion lies. I am enthusiastic about exploring, and applying machine learning to benefit society, and push the boundaries of what's possible. You can find my full project list, publications, and open-source contributions on my <a href="/Asher_Khan_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a> and [GitHub](https://github.com/asherk7).
 
-I've interned as a machine learning engineer and software developer at various companies such as Ericsson. I've also done freelancing where I designed pages and built web applications. You can find more on my [LinkedIn](https://www.linkedin.com/in/asher-khan13/).
+I've interned as a machine learning engineer and software developer at various companies such as Ericsson and Flip. I've also done freelancing for building full-stack applications in various fields. You can find more on my [LinkedIn](https://www.linkedin.com/in/asher-khan13/).
 
 For ML, I mainly use: {Python} {TensorFlow} {PyTorch} {Pandas} {Matplotlib}<br>
 With Data Science, I add in: {NumPy} {Scikit-learn} {MySQL}<br>

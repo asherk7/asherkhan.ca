@@ -2,6 +2,15 @@ import type { Experience } from '~/types'
 
 export const experience: Experience[] = [
   {
+    title: 'Member of Technical Staff',
+    company: 'Riipen',
+    type: 'contract part-time',
+    location: 'Remote',
+    start: '2025-09-08',
+    end: '2025-12-26',
+    point: 'MiMinion (100 hrs): Module Development for MCPs & AI Agents, VJDS International (60 hrs): Recommendation System Development',
+  },
+  {
     title: 'Machine Learning Engineer Intern',
     company: 'Flip',
     type: 'Internship',
@@ -20,7 +29,7 @@ export const experience: Experience[] = [
     point: 'AI/ML Initiatives & Coding Events',
   },
   {
-    title: 'AI Engineer Intern',
+    title: 'Software Engineer Intern',
     company: 'Ericsson',
     type: 'Internship',
     location: 'Ottawa, Ontario, Canada',
